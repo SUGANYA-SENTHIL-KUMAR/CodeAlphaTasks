@@ -1,0 +1,26 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.post {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-radius: 5;
+  background-color: rgb(125, 125, 239);
+  border-color: brown;
+}
+
+.post-content {
+  font-size: 14px;
+  color: #333;
+}
