@@ -1,0 +1,145 @@
+/* Add this CSS to your portstyle.css file */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-header {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    margin-left: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav {
+    position: relative;
+}
+
+.togglebtn {
+    display: none; /* Hide the toggle button for desktop view */
+}
+
+.navlinks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navlinks li {
+    margin-left: 20px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+    padding: 10px 20px;
+    transition: background 0.3s;
+}
+
+.navlinks a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.hero-pic img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.hero-text {
+    margin-top: 20px;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+}
+
+.hero-text p {
+    font-size: 1em;
+    color: #666;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.social a:hover {
+    color: #555;
+}
+
+@media screen and (max-width: 768px) {
+    .togglebtn {
+        display: block; /* Show the toggle button for mobile view */
+    }
+
+    .navlinks {
+        flex-direction: column;
+        display: none;
+    }
+
+    .navlinks li {
+        margin-left: 0;
+    }
+
+    .navlinks a {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navlinks a:hover {
+        background-color: #ddd;
+        border-radius: 0;
+    }
+}
